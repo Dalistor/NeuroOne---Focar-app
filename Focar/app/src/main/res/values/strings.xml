@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Focar</string>
+    <string name="asset_statements">[\n  {\n    \"relation\": [\n      \"delegate_permission/common.handle_all_urls\"\n    ],\n    \"target\": {\n      \"namespace\": \"android_app\",\n      \"package_name\": \"com.example.focar\",\n      \"sha256_cert_fingerprints\": [\n        \"AC:C4:D7:06:3C:E9:F0:A7:15:9E:8C:73:43:03:58:00:9F:44:0F:E4:D0:17:54:05:1B:FB:D3:71:43:2B:D8:7E\"\n      ]\n    }\n  }\n]</string>
+</resources>
