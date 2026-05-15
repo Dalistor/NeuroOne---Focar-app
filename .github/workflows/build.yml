@@ -42,4 +42,10 @@ jobs:
       - name: Build iOS App via Xcode
         run: |
           cd iosApp
-          xcodebuild -project iosApp.xcodeproj -scheme iosApp -configuration Debug -destination 'platform=iOS Simulator,name=iPhone 16' build
+          xcodebuild -project iosApp.xcodeproj -scheme iosApp -configuration Debug -destination 'platform=iOS Simulator,name=iPhone 16' SYMROOT=$PWD/build build
+
+      - name: Upload iOS Simulator App
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-app-simulator
+          path: iosApp/build/Debug-iphonesimulator/*.app
