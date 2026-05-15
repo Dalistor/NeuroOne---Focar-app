@@ -42,4 +42,4 @@ jobs:
       - name: Build iOS App via Xcode
         run: |
           cd iosApp
-          xcodebuild -project iosApp.xcodeproj -scheme iosApp -configuration Debug -destination 'platform=iOS Simulator,name=iPhone 15' build
+          xcodebuild -project iosApp.xcodeproj -scheme iosApp -configuration Debug -destination 'platform=iOS Simulator,name=iPhone 16' build
