@@ -170,7 +170,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd \"$SRCROOT/..\"\necho "Skipping KMP framework"\n";
+			shellScript = "cd \"$SRCROOT/..\"\necho \"Skipping KMP framework\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
